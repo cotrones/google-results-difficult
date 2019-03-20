@@ -5,7 +5,7 @@ body {
 }
 
 header {
-	display: flex;
+	display: inline;
 }
 
 nav.mainNav {
@@ -110,4 +110,48 @@ nav div ul li a button {
 	line-height: 28px;
 	padding: 0 12px;
 	border-radius: 2px;
+}
+
+div.resultNav {
+	display: flex;
+	width: auto;
+	height: 30px;
+	padding: 26px 0 0 150px;
+	border-bottom: 1px solid #ebebeb;
+}
+
+div.resultNav ul {
+	display: flex;
+}
+
+div.resultNav ul li a {
+	color: #777;
+	margin: 0 8px;
+	padding: 0 8px;
+	font-size: 13px;
+	text-decoration: none;
+}
+
+div.resultNav ul li a:hover {
+	color: #222;
+}
+
+div.resultNav ul li.activeTab {
+	padding-bottom: 11px;
+	border-bottom: 3px solid #1a73e8;
+}
+
+div.resultNav ul li a#active {
+	color: #1a73e8;
+	font-weight: bold;
+}
+
+div.resultTools {
+	margin-left: 80px;
+}
+
+div.resultTools #tools:hover {
+	background-image: -webkit-linear-gradient(top,#f8f8f8,#f1f1f1);
+	border: 1px solid #c6c6c6;
+	box-shadow: 0 1px 1px rgba(0,0,0,0.1);
 }
