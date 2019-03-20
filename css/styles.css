@@ -4,6 +4,10 @@ body {
 	font-family: arial, serif;
 }
 
+header {
+	display: flex;
+}
+
 nav.mainNav {
 	display: flex;
 	height: 46px;
@@ -55,4 +59,55 @@ nav div.searchIcons {
 nav div.searchIcons#googleSearch {
 	margin-right: 7px;
 	margin-left: -2px;
+}
+
+nav div.navButtons {
+	display: flex;
+	margin-left: auto;
+	padding-right: 30px;
+}
+
+nav div ul {
+	display: flex;
+	align-items: center;
+	margin: none;
+	padding: 0px;
+	height: 100%;
+}
+
+nav div ul li {
+	display: flex;
+	align-items: center;
+	height: 100%;
+}
+
+nav div ul li a {
+	padding-left: 15px;
+}
+
+nav div ul li a img {
+	opacity: 0.65;
+}
+
+nav div ul li a img:hover {
+	opacity: 1;
+	cursor: pointer;
+}
+
+nav div ul li a.googleApps {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 30px;
+	width: 30px;
+}
+
+nav div ul li a button {
+	background: -webkit-linear-gradient(top,#4387fd,#4683ea);
+	border: 1px solid #4285f4;
+	color: #fff;
+	font-weight: bold;
+	line-height: 28px;
+	padding: 0 12px;
+	border-radius: 2px;
 }
