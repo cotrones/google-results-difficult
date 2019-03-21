@@ -203,7 +203,7 @@ div.resultCount {
 	align-items: center;
 	height: 43px;
 	margin-left: 150px;
-	padding-left: 16px;
+	padding-left: 20px;
 	color: #777;
 	font-size: small;
 }
@@ -215,8 +215,9 @@ div.mainContent {
 }
 
 div.searchResults {
-	width: 616px;
-	margin-left: 166px;
+	width: 592px;
+	padding: 0 20px;
+	margin-left: 150px;
 }
 
 div h2 a {
@@ -242,5 +243,35 @@ div p.resultInfo {
 	line-height: 1.54;
 	font-size: small;
 	padding-top: 1px;
+	padding-bottom: 30px;
 	color: #545454;
+}
+
+div#firstResult p.resultInfo {
+	padding-bottom: 0;
+}
+
+div.subResult {
+	display: flex;
+	margin: 0 0 0 22px;
+	padding-top: 15px;
+	width: 100%;
+	height: 243px;
+}
+
+div.subResult div {
+	width: 301px;
+	height: 83px;
+}
+
+div p.subInfo {
+	width: 220px;
+	height: 40px;
+	color: #545454;
+	line-height: 1.54;
+	font-size: small;
+}
+
+div.subContainer {
+	width: 50%;
 }
