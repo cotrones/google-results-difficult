@@ -198,7 +198,7 @@ div.resultTools #tools:hover {
 
 /*-------Main Section--------*/
 
-/*div.resultCount {
+div.resultCount {
 	display: flex;
 	align-items: center;
 	height: 43px;
@@ -209,29 +209,31 @@ div.resultTools #tools:hover {
 }
 
 div.mainContent {
-	width: 100%;
 	display: flex;
 	padding-top: 6px;
 }
 
 div.searchResults {
-	width: 592px;
-	padding: 0 20px;
+	width: 632px;
 	margin-left: 150px;
 }
 
-div h2 a {
+div.result {
+	padding: 0 20px 30px 20px;
+}
+
+div.result h2 a {
 	font-size: 18px;
 	line-height: 1.33;
 	color: #1a0dab;
 	text-decoration: none;
 }
 
-div h2 a:hover {
+div.result h2 a:hover {
 	text-decoration: underline;
 }
 
-div p a.resultLink {
+.resultLink {
 	color: #006621;
 	text-decoration: none;
 	font-size: 14px;
@@ -239,29 +241,28 @@ div p a.resultLink {
 	line-height: 1.43;
 }
 
-div p.resultInfo {
+.resultInfo {
 	line-height: 1.54;
 	font-size: small;
 	padding-top: 1px;
-	padding-bottom: 30px;
 	color: #545454;
-}
-
-div#firstResult p.resultInfo {
-	padding-bottom: 0;
 }
 
 div.subResult {
 	display: flex;
+	flex-direction: column;
 	margin: 0 0 0 22px;
-	padding-top: 15px;
 	width: 100%;
-	height: 243px;
+	height: auto;
 }
 
-div.subResult div {
-	width: 301px;
-	height: 73px;
+div.subRow {
+	display: flex;
+}
+
+div.subContainer {
+	width: 50%;
+	padding-top: 15px;
 }
 
 div p.subInfo {
@@ -272,8 +273,19 @@ div p.subInfo {
 	font-size: small;
 }
 
-div.subContainer {
-	width: 50%;
+div.subMore {
+	width: 100%;
+	padding-top: 10px;
+}
+
+div.subMore a {
+	font-size: small;
+	text-decoration: none;
+	color: #1a0dab;
+}
+
+div.subMore a:hover {
+	text-decoration: underline;
 }
 
 div.peopleAsk {
@@ -281,4 +293,4 @@ div.peopleAsk {
 	height: 145px;
 	border: 1px solid #dfe1e5;
 	border-radius: 8px;
-}*/
+}
