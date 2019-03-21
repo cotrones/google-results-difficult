@@ -195,3 +195,52 @@ div.resultTools #tools:hover {
 	box-shadow: 0 1px 1px rgba(0,0,0,0.1);
 	cursor: pointer;
 }
+
+/*-------Main Section--------*/
+
+div.resultCount {
+	display: flex;
+	align-items: center;
+	height: 43px;
+	margin-left: 150px;
+	padding-left: 16px;
+	color: #777;
+	font-size: small;
+}
+
+div.mainContent {
+	width: 100%;
+	display: flex;
+	padding-top: 6px;
+}
+
+div.searchResults {
+	width: 616px;
+	margin-left: 166px;
+}
+
+div h2 a {
+	font-size: 18px;
+	line-height: 1.33;
+	color: #1a0dab;
+	text-decoration: none;
+}
+
+div h2 a:hover {
+	text-decoration: underline;
+}
+
+div p a.resultLink {
+	color: #006621;
+	text-decoration: none;
+	font-size: 14px;
+	padding-top: 1px;
+	line-height: 1.43;
+}
+
+div p.resultInfo {
+	line-height: 1.54;
+	font-size: small;
+	padding-top: 1px;
+	color: #545454;
+}
