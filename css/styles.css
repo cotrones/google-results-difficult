@@ -571,8 +571,46 @@ div.companyInfo {
 	border-bottom: 1px solid #dfe1e5;
 }
 
-div.companyProfiles {
+div.companySite {
 	display: flex;
 	height: 40px;
 	border-bottom: 1px solid #dfe1e5;
+}
+
+div.companyTitle {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 175px;
+	padding-left: 15px;
+}
+
+div.companyTitle h2 {
+	color: rgba(0,0,0,0.87);
+	line-height: 1.2;
+	font-size: 19px;
+}
+
+div.companyTitle p {
+	padding: 4px 0;
+	color: #777;
+	line-height: 1.54;
+	font-size: small;
+}
+
+div.arrowContainer {
+	display: flex;
+	align-items: center;
+	width: 40px;
+}
+
+.arrowLeft {
+	float: right;
+	border: solid #70757a;
+	height: 10px;
+	width: 10px;
+	border-width: 0 2px 2px 0;
+	padding: 2px;
+	transform: rotate(135deg);
+	-webkit-transform: rotate(135deg);
 }
