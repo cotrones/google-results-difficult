@@ -461,6 +461,7 @@ div.searchPages {
 .gle {
 	width: 80px;
 	height: 37px;
+	color: #4285f4;
 	background: url(https://www.google.com/images/nav_logo242_hr.png) no-repeat;
 	background-size: 164px;
 	background-position: -93px 0px;
@@ -472,8 +473,23 @@ div.searchPages {
 	text-align: center;
 	padding: 5px 3px 0px 3px;
 	color: #4285f4;
-	font-size: 14px;
+	font-size: small;
 	line-height: 1.5;
+}
+
+.pageNext {
+	display: block;
+	margin-top: 35px;
+	text-align: right;
+	padding: 5px 3px 0px 3px;
+	color: #4285f4;
+	font-size: small;
+	line-height: 1.5;
+}
+
+div.gle:hover {
+	cursor: pointer;
+	text-decoration: underline;
 }
 
 span#pageActive {
