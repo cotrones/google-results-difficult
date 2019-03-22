@@ -571,12 +571,6 @@ div.companyInfo {
 	border-bottom: 1px solid #dfe1e5;
 }
 
-div.companySite {
-	display: flex;
-	height: 40px;
-	border-bottom: 1px solid #dfe1e5;
-}
-
 div.companyTitle {
 	display: flex;
 	flex-direction: column;
@@ -600,6 +594,7 @@ div.companyTitle p {
 
 div.arrowContainer {
 	display: flex;
+	justify-content: center;
 	align-items: center;
 	width: 40px;
 }
@@ -613,4 +608,47 @@ div.arrowContainer {
 	padding: 2px;
 	transform: rotate(135deg);
 	-webkit-transform: rotate(135deg);
+}
+
+.arrowLeft:hover {
+	cursor: pointer;
+}
+
+div.odinLogo {
+	display: flex;
+	width: 121px;
+	padding-left: 15px;
+	justify-content: center;
+	align-items: center;
+}
+
+div.odinLogo img:hover {
+	cursor: pointer;
+}
+
+div.companySite {
+	height: 40px;
+	border-bottom: 1px solid #dfe1e5;
+}
+
+div.companySite a {
+	display: flex;
+	height: 100%;
+	align-items: center;
+	line-height: 1.54;
+	font-size: small;
+	color: #1a0dab;
+	text-decoration: none;
+}
+
+div.companySite a:hover {
+	text-decoration: underline;
+}
+
+div.companySite img {
+	padding: 0 20px;
+}
+
+div.companySite p {
+	padding-left: 10px;
 }
