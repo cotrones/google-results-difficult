@@ -248,6 +248,25 @@ div.result h2 a:hover {
 	color: #545454;
 }
 
+.bold {
+	font-weight: bold;
+}
+
+.dateTime {
+	color: #777;
+	line-height: 1.54;
+	font-size: small;
+}
+
+a#twitterLink {
+	color: #1a0dab;
+	text-decoration: none;
+}
+
+a#twitterLink:hover {
+	text-decoration: underline;
+}
+
 div.subResult {
 	display: flex;
 	flex-direction: column;
