@@ -382,3 +382,38 @@ div.feedback a {
 div.feedback a:hover {
 	text-decoration: underline;
 }
+
+div.relatedSearches {
+	padding: 0 20px;
+	margin-bottom: 28px;
+
+}
+
+div.relatedSearches h2 {
+	color: #222;
+	font-size: 18px;
+	line-height: 1.33;
+	padding: 15px 0;
+}
+
+div.linkContainer {
+	display: flex;
+}
+
+div.relatedLinks {
+	display: flex;
+	flex-direction: column;
+	width: 45%;
+}
+
+div.relatedLinks a {
+	color: #1a0dab;
+	padding: 3px 0;
+	font-size: 14px;
+	line-height: 20px;
+	text-decoration: none;
+}
+
+div.relatedLinks a:hover {
+	text-decoration: underline;
+}
