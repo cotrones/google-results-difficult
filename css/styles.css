@@ -810,3 +810,51 @@ div.alsoSearch img {
 div.alsoSearch p {
 	margin-top: auto;
 }
+
+div.disclaimer {
+	display: flex;
+	flex-direction: column;
+	margin-top: 529px;
+	margin-left: -368px;
+	width: 368px;
+}
+
+div#disclaimerLinks {
+	display: flex;
+	color: #777;
+	font-size: 12px;
+	line-height: 1.33;
+	padding: 2px 15px;
+	text-decoration: none;
+}
+
+div#disclaimerLinks p:hover {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+p#disFeedback {
+	margin-left: auto;
+	font-style: italic;
+}
+
+div.disclaimerButton {
+	display: flex;
+	align-items: center;
+	width: 186px;
+    height: 20px;
+	cursor: pointer;
+	color: #3c4043;
+    font-size: 13px;
+    line-height: 1.54;
+    padding: 8px 12px;
+    border: 1px solid #DADCE0;
+    border-radius: 18px;
+}
+
+div.disclaimerButton p {
+	line-height: 1.54;
+	font-size: 13px;
+	color: #3c4043;
+	padding-left: 8px;
+}
