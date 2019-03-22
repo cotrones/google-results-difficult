@@ -417,3 +417,70 @@ div.relatedLinks a {
 div.relatedLinks a:hover {
 	text-decoration: underline;
 }
+
+div.searchPages {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 65px;
+}
+
+.bigG {
+	width: 30px;
+	height: 37px;
+	background: url(https://www.google.com/images/nav_logo242_hr.png) no-repeat;
+	background-size: 164px;
+	background-position: -21px 0px;
+}
+
+.redO {
+	width: 20px;
+	height: 37px;
+	background: url(https://www.google.com/images/nav_logo242_hr.png) no-repeat;
+	background-size: 164px;
+	background-position: -51px 0px;
+}
+
+.default {
+	color: #000;
+}
+
+.default:hover {
+	cursor: default;
+	text-decoration: none;
+}
+
+.yellowO {
+	width: 20px;
+	height: 37px;
+	color: #4285f4;
+	background: url(https://www.google.com/images/nav_logo242_hr.png) no-repeat;
+	background-size: 164px;
+	background-position: -72px 0px;
+}
+
+.gle {
+	width: 80px;
+	height: 37px;
+	background: url(https://www.google.com/images/nav_logo242_hr.png) no-repeat;
+	background-size: 164px;
+	background-position: -93px 0px;
+}
+
+.pageNumber {
+	display: block;
+	margin-top: 35px;
+	text-align: center;
+	padding: 5px 3px 0px 3px;
+	color: #4285f4;
+	font-size: 14px;
+	line-height: 1.5;
+}
+
+span#pageActive {
+	color: rgba(0,0,0,0.87);
+}
+
+div.yellowO:hover {
+	cursor: pointer;
+	text-decoration: underline;
+}
