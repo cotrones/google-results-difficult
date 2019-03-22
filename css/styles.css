@@ -686,9 +686,127 @@ div.companySite a:hover {
 }
 
 div.companySite img {
-	padding: 0 20px;
+	padding: 0 15px;
 }
 
 div.companySite p {
 	padding-left: 10px;
+}
+
+div.companyDetails {
+	padding: 7px 0 0 15px;
+	font-size: small;
+	color: #222;
+}
+
+a.detailLink {
+	color: #222;
+	line-height: 2;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a.detailLink:hover {
+	text-decoration: underline;
+}
+
+a#thinkfulLink {
+	color: #1a0dab;
+	text-decoration: none;
+	margin-top: 7px;
+}
+
+a#thinkfulLink:hover {
+	text-decoration: underline;
+}
+
+div.profileContainer {
+	display: flex;
+	flex-direction: column;
+	width: 336px;
+	padding: 0 15px;
+}
+
+div#profileHead {
+	width: 100%;
+	color: #222;
+	line-height: 1.33;
+	font-size: 18px;
+	margin-top: 20px;
+	padding-bottom: 10px;
+}
+
+div#profileRow {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+}
+
+div.profile {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 72px;
+	height: 54px;
+	cursor: pointer;
+	font-size: small;
+	padding: 0 8px;
+	color: #1a0dab;
+}
+
+div.profile:hover {
+	text-decoration: underline;
+}
+
+div.profile span {
+	padding-top: 5px;
+	line-height: 1.38;
+}
+
+div#alsoHead {
+	display: flex;
+	align-items: baseline;
+	margin-top: 20px;
+}
+
+div#alsoHead h2 {
+	cursor: pointer;
+	color: #222;
+	line-height: 1.33;
+	font-size: 18px;
+}
+
+div#alsoHead h2:hover {
+	text-decoration: underline;
+}
+
+div#alsoHead p {
+	cursor: pointer;
+	margin-left: auto;
+	color: #777;
+	font-size: small;
+}
+
+div#alsoHead p:hover {
+	text-decoration: underline;
+}
+
+div.alsoSearch {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 72px;
+	height: 100px;
+	cursor: pointer;
+	font-size: small;
+	padding: 0 8px;
+	color: #1a0dab;
+}
+
+div.alsoSearch img {
+	position: absolute;
+}
+
+div.alsoSearch p {
+	margin-top: auto;
 }
